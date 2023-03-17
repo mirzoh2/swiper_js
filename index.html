@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Example form</h1>
+    <ul>
+      <li>All: 0</li>
+      <li>Need: 0</li>
+      <li>Success: 0/12</li>
+      <li>Error: 0/12</li>
+    </ul>
+    
+    <form action="" name="form" class="form">
+      <div class="input_wrap sucsess">
+        <p>Name</p>
+        <input class="sucInput" type="text" name="Name" oninvalid="setCustomValidity('Имя должно содержать 2-20 символов')">
+        <span>Need to fill</span>
+        <img src="./img/Outside Icon Container.svg" alt="">
+      </div>
+      <div class="input_wrap sucsess">
+        <p>Age</p>
+        <input type="number" name="number" class="sucInput">
+        <span>Need to fill</span>
+        <img src="./img/Outside Icon Container.svg" alt="">
+      </div>
+      <div class="input_wrap" >
+        <p>Surname</p>
+        <input type="text" name="Surname">
+      </div>
+      <div class="input_wrap sucsess">
+        <p>About You</p>
+        <input type="text" name="About_you" class="sucInput">
+        <span>Need to fill</span>
+        <img src="./img/Outside Icon Container.svg" alt="">
+      </div>
+      <div class="input_wrap sucsess">
+        <p>Email adress</p>
+        <input type="email" name="email" class="sucInput">
+        <span>Need to fill</span>
+        <img src="./img/Outside Icon Container.svg" alt="">
+      </div>
+      <div class="input_wrap sucsess">
+        <p>What is JavaScript?</p>
+        <input type="text" name="WhatJs" class="sucInput">
+        <span>Need to fill</span>
+        <img src="./img/Outside Icon Container.svg" alt="">
+      </div>
+      <div class="input_wrap">
+        <p>Phone number</p>
+        <input type="number" name="Phone">
+      </div>
+      <div class="input_wrap sucsess">
+        <p>What is HTML?</p>
+        <input type="text" name="WhatHtml" class="sucInput">
+        <span>Need to fill</span>
+        <img src="./img/Outside Icon Container.svg" alt="">
+      </div>
+      <div class="input_wrap">
+        <p>Your Mom’s name</p>
+        <input type="text" name="momname">
+      </div>
+      <div class="input_wrap sucsess">
+        <p>What is CSS?</p>
+        <input type="text" name="WhatCss" class="sucInput">
+        <span>Need to fill</span>
+        <img src="./img/Outside Icon Container.svg" alt="">
+      </div>
+      <div class="input_wrap">
+        <p>Your Pap’s name</p>
+        <input type="text" name="papname">
+      </div>
+      <div class="input_wrap">
+        <p>Your favourite car</p>
+        <input type="text" name="car">  
+      </div>
+      <button type="submit" class="button">Save changes</button>
+    </form>
+  </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
+
